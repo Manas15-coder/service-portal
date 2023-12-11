@@ -1,0 +1,123 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: bold;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: 'white';
+}
+
+link:hover {
+  color: white;
+  text-decoration: none;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+#banner {
+  padding: 100px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #00589f;
+  color: #ffff;
+}
+
+.banner-content {
+  padding: 2rem;
+}
+
+.banner-img {
+  max-width: 250px;
+  width: 100%;
+}
+
+.learn-btn {
+  padding: 10px 20px;
+  background-color: #ffff;
+  color: #00589f;
+  border: none;
+
+}
+
+@media (max-width:769px) {
+  .col-md-5 {
+      order: -2;
+      text-align: center;
+  }
+}
+
+#services {
+  padding: 10px 10px;
+  background-color: #f28713;
+  color: #ffff;
+  font-weight: 500;
+}
+
+.service ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.service ul li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (max-width:769px) {
+  #services {
+      overflow-x: scroll;
+  }
+
+  .service ul {
+      padding: 20px;
+  }
+}
+.view-btn{
+  padding: 10px 20px;
+  background-color: #00589f;
+  color: #ffff;
+  font-weight: 500;
+  border: none;
+  display: block;
+  margin: auto;
+}
+.search{
+  background-color: #f28713;
+  padding: 10px 20px;
+}
+.service-banner{
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://malayantechlabs.com/wp-content/uploads/2020/12/Inner-Banner3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffff;
+}
+@keyframes float {
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+}
